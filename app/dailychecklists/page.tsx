@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent } from '@/components/ui/card';
 import { ArrowLeft } from 'lucide-react';
 
 export default function DailyChecklists() {
@@ -17,7 +17,7 @@ export default function DailyChecklists() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-background to-background/90 py-12 px-4">
+    <main className="min-h-screen bg-gradient-to-b from-blue-100 to-blue-300 dark:from-blue-900 dark:to-blue-700 py-12 px-4">
       <div className="max-w-2xl mx-auto">
         <Link href="/" className="inline-block mb-6">
           <Button variant="ghost" size="sm" className="gap-2">
