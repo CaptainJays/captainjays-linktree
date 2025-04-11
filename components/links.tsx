@@ -43,13 +43,13 @@ const links = [
   },
   {
     title: "Indeed",
-    url: "",
+    url: "https://www.indeed.com/cmp/Captain-Jay's-2?from=mobviewjob&tk=1ioj639jdg8p3800&fromjk=7063f2310e35aaa7&attributionid=mobvjcmp",
     icon: SiIndeed,
     style: "glass"
   },
  
   {
-    title: "Contact Me",
+    title: "Contact US",
     url: "",
     icon: Mail,
     style: "glass" //gradient
