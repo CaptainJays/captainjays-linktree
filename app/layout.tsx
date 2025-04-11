@@ -10,14 +10,14 @@ export const metadata: Metadata = {
   description: 'All your captain jays links in one place.',
   openGraph: {
     title: 'Captain Jays | Links',
-    description: 'Connect with me across various platforms and check out my work.',
-    images: ['https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80'],
+    description: 'Captain Jays All Links.',
+    images: ['https://captainjays-linktree.vercel.app/'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Captain Jays | Links',
-    description: 'Connect with me across various platforms and check out my work.',
-    images: ['https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80'],
+    description: 'Captain Jays All Links.',
+    images: ['https://captainjays-linktree.vercel.app/'],
   },
 };
 

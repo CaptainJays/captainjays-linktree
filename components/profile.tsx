@@ -17,10 +17,10 @@ export default function Profile() {
       >
         <div className="rounded-full overflow-hidden relative w-full h-full bg-gradient-to-b from-white/10 to-white/5 dark:from-black/10 dark:to-black/5">
           <Image
-            src=""
+            src="/cj-logo.png"
             alt="Profile"
             fill
-            className="object-cover"
+            className="object-contain"
             priority
           />
         </div>

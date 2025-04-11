@@ -2,8 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Github, Twitter, Globe, Linkedin, Mail, Youtube, ListChecks } from "lucide-react";
-import { FaBehance,FaDribbble} from "react-icons/fa";
-import { SiRoadmapdotsh } from "react-icons/si";
+import { FaBehance,FaDribbble, FaTruckMoving} from "react-icons/fa";
+import { SiRoadmapdotsh, SiIndeed } from "react-icons/si";
 import Link from "next/link";
 
 interface LinksProps {
@@ -19,7 +19,7 @@ const links = [
   },
   {
     title: "Road Maps",
-    url: "https://github.com/Dimuthnilanjana",
+    url: "/roadmaps",
     icon: SiRoadmapdotsh,
     style: "outline"
   },
@@ -30,9 +30,9 @@ const links = [
     style: "outline"
   },
   {
-    title: "Dribble",
-    url: "https://dribbble.com/Dimuthnilanjana",
-    icon: FaDribbble,
+    title: "DFD",
+    url: "https://app.jotform.com/250266173293154",
+    icon: FaTruckMoving,
     style: "outline"
   },
   {
@@ -42,15 +42,15 @@ const links = [
     style: "glass"
   },
   {
-    title: "LinkedIn",
-    url: "https://linkedin.com/in/dimuth",
-    icon: Linkedin,
+    title: "Indeed",
+    url: "",
+    icon: SiIndeed,
     style: "glass"
   },
  
   {
     title: "Contact Me",
-    url: "mailto:dimuthnilanjana,official@gmail.com",
+    url: "",
     icon: Mail,
     style: "glass" //gradient
   }
