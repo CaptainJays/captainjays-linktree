@@ -6,16 +6,16 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Dimuth Nilanjana | Links',
-  description: 'Connect with me across various platforms and check out my work.',
+  title: 'Captain Jays | Links',
+  description: 'All your captain jays links in one place.',
   openGraph: {
-    title: 'Dimuth Nilanjana | Links',
+    title: 'Captain Jays | Links',
     description: 'Connect with me across various platforms and check out my work.',
     images: ['https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80'],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Dimuth Nilanjana | Links',
+    title: 'Captain Jays | Links',
     description: 'Connect with me across various platforms and check out my work.',
     images: ['https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80'],
   },

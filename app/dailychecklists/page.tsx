@@ -8,10 +8,10 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function DailyChecklists() {
   // Read the profile data from the JSON file
-  const dataFilePath = path.join(process.cwd(), 'data', 'links.json');
-  const fileContents = fs.readFileSync(dataFilePath, 'utf8');
-  const data: LinkData = JSON.parse(fileContents);
-  const { profile } = data;
+  // const dataFilePath = path.join(process.cwd(), 'data', 'links.json');
+  // // const fileContents = fs.readFileSync(dataFilePath, 'utf8');
+  // const data: LinkData = JSON.parse(fileContents);
+  // const { profile } = data;
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-background to-background/90 py-12 px-4">
@@ -26,13 +26,13 @@ export default function DailyChecklists() {
         <Card className="border-2 border-secondary">
           <CardHeader>
             <CardTitle className="text-2xl">About Me</CardTitle>
-            <CardDescription>Get to know {profile.name}</CardDescription>
+            {/* <CardDescription>Get to know {profile.name}</CardDescription> */}
           </CardHeader>
           <CardContent className="space-y-4">
             <div>
               <h3 className="text-lg font-medium mb-2">Who I Am</h3>
               <p className="text-muted-foreground">
-                I'm {profile.name}, a passionate {profile.title} with a love for creating elegant solutions to complex problems. 
+                {/* I'm {profile.name}, a passionate {profile.title} with a love for creating elegant solutions to complex problems.  */}
                 My journey in technology began over 5 years ago, and I've been on an exciting path of continuous learning and growth ever since.
               </p>
             </div>
