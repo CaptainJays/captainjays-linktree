@@ -1,13 +1,12 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Github, Twitter, Linkedin, Instagram, Youtube, Globe } from "lucide-react";
 import Link from "next/link";
 
 const socialLinks = [
-  { icon: Github, url: "" },
-  { icon: Twitter, url: "" },
-  { icon: Linkedin, url: "" },
+  { icon: Youtube, url: "" },
+  { icon: Globe, url: "" },
   { icon: Instagram, url: "" }
 ];
 
