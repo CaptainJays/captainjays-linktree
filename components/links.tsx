@@ -1,9 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Globe, Linkedin, Mail, Youtube, ListChecks } from "lucide-react";
+import { Clock4, CircleDollarSign, Globe, File, FileUser, Mail,  ScrollText, ListChecks } from "lucide-react";
 import { FaBehance,FaDribbble, FaTruckMoving} from "react-icons/fa";
-import { SiRoadmapdotsh, SiIndeed } from "react-icons/si";
+import { SiRoadmapdotsh, SiDoordash, SiUbereats } from "react-icons/si";
+import { PiExamBold } from "react-icons/pi";
+import { TbBrandPepsi } from "react-icons/tb";
 import Link from "next/link";
 
 interface LinksProps {
@@ -15,6 +17,12 @@ const links = [
     title: "Daily Checklists",
     url: "/dailychecklists",
     icon: ListChecks,
+    style: "outline"
+  },
+  {
+    title: "Captain Jays Exams",
+    url: "https://app.jotform.com/250494972265163",
+    icon: PiExamBold,
     style: "outline"
   },
   {
@@ -36,22 +44,69 @@ const links = [
     style: "outline"
   },
   {
-    title: "Twitter",
-    url: "https://x.com/DimuthNilanjana",
-    icon: Twitter,
-    style: "glass"
-  },
-  {
-    title: "Indeed",
-    url: "https://www.indeed.com/cmp/Captain-Jay's-2?from=mobviewjob&tk=1ioj639jdg8p3800&fromjk=7063f2310e35aaa7&attributionid=mobvjcmp",
-    icon: SiIndeed,
-    style: "glass"
-  },
- 
-  {
-    title: "Contact US",
+    title: "Pepsi",
     url: "",
-    icon: Mail,
+    icon: TbBrandPepsi,
+    style: "glass"
+  },
+  {
+    title: "Doordash",
+    url: "",
+    icon: SiDoordash,
+    style: "glass"
+  },
+  {
+    title: "Uber Eats",
+    url: "",
+    icon: SiUbereats,
+    style: "glass"
+  },
+  {
+    title: "Venture",
+    url: "",
+    icon: CircleDollarSign,
+    style: "glass"
+  },
+  {
+    title: "Time Clock",
+    url: "",
+    icon: Clock4,
+    style: "glass"
+  },
+  {
+    title: "Team Member Applications",
+    url: "https://www.indeed.com/cmp/Captain-Jay's-2?from=mobviewjob&tk=1ioj639jdg8p3800&fromjk=7063f2310e35aaa7&attributionid=mobvjcmp",
+    icon: FileUser,
+    style: "glass"
+  },
+  {
+    title: "Employee Guidelines",
+    url: "",
+    icon: ScrollText,
+    style: "glass"
+  },
+  {
+    title: "Insurance Report",
+    url: "",
+    icon: ScrollText,
+    style: "glass"
+  },
+  {
+    title: "Incident Report",
+    url: "",
+    icon: ScrollText,
+    style: "glass"
+  },
+  {
+    title: "Customer Report",
+    url: "",
+    icon: ScrollText,
+    style: "glass"
+  },
+  {
+    title: "Hr Documents",
+    url: "",
+    icon: File,
     style: "glass" //gradient
   }
 ];
