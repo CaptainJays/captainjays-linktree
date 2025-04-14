@@ -11,13 +11,13 @@ export const metadata: Metadata = {
   description: 'All your captain jays links in one place.',
   openGraph: {
     title: 'Captain Jays | Links',
-    description: 'Captain Jays All Links.',
+    description: 'All your Captain Jays Links in one place.',
     images: ['https://captainjays-linktree.vercel.app/'],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Captain Jays | Links',
-    description: 'Captain Jays All Links.',
+    description: 'All your Captain Jays Links in one place.',
     images: ['https://captainjays-linktree.vercel.app/'],
   },
 };
