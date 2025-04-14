@@ -45,15 +45,15 @@ const links = [
   },
   {
     title: "Pepsi",
-    url: "",
+    url: "https://www.mypepsicoview.com/personaWeb/civ_user/",
     icon: TbBrandPepsi,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Doordash",
-    url: "",
+    url: "https://identity.doordash.com/auth?client_id=1643580605860775164&redirect_uri=https%3A%2F%2Fmerchant-portal.doordash.com%2Fauth_callback&scope=*&prompt=none&response_type=code&layout=merchant_web_v2&state=abd230e6-1bfb-49c2-8bde-6a5f95e8592a&allowRedirect=true&failureRedirect=%2Fmerchant%2Flogin",
     icon: SiDoordash,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Uber Eats",
@@ -63,37 +63,43 @@ const links = [
   },
   {
     title: "Venture",
-    url: "",
+    url: "https://vns.prismhr.com/vns/",
     icon: CircleDollarSign,
     style: "glass"
   },
   {
     title: "Time Clock",
-    url: "",
+    url: "https://www.swipeclock.com/pg/Login.aspx?why=notloggedin&",
     icon: Clock4,
     style: "glass"
   },
   {
     title: "Team Member Applications",
-    url: "https://www.indeed.com/cmp/Captain-Jay's-2?from=mobviewjob&tk=1ioj639jdg8p3800&fromjk=7063f2310e35aaa7&attributionid=mobvjcmp",
+    url: "https://mega.nz/file/bFgh2RYR#rvz62tgT_b0X4dhIJoP8jBj1Z4kmM_T9dv1CZ_WYaQ4",
     icon: FileUser,
     style: "glass"
   },
   {
     title: "Employee Guidelines",
-    url: "",
+    url: "https://mega.nz/file/SQYGHLzD#ZQR7CPr4Ouj-r_L2PfxdpFsgxpj5Scejl5l5l0aSGg8",
     icon: ScrollText,
     style: "glass"
   },
   {
     title: "Insurance Report",
-    url: "",
+    url: "https://mega.nz/file/3UwS1QIC#BjCdHHTWXFxQbT6QFn6d4AtFA4DesszsBSR41IaR1sE",
     icon: ScrollText,
     style: "glass"
   },
   {
     title: "Incident Report",
-    url: "",
+    url: "https://mega.nz/file/LYJBwa7Z#22YWRd5HT54of4bbHNTbasJ3MnyGzi-8OVKAG4PmAz0",
+    icon: ScrollText,
+    style: "glass"
+  },
+  {
+    title: "Employee Incident Report",
+    url: "https://mega.nz/file/PY5T3LqY#tUSyGwmgMb144vzC1wDCIcC14QWXX2MYQ-qEsuKvAgo", 
     icon: ScrollText,
     style: "glass"
   },
@@ -105,9 +111,9 @@ const links = [
   },
   {
     title: "Hr Documents",
-    url: "",
+    url: "/hrdoc",
     icon: File,
-    style: "glass" //gradient
+    style: "outline" //gradient
   }
 ];
 

@@ -1,9 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent } from '@/components/ui/card';
 import ThemeToggle from '@/components/theme-toggle';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ListChecks } from 'lucide-react';
+import GlowingCardWrapper from '@/components/GlowingCardWrapper'; // Import the new wrapper
 
 export default function DailyChecklists() {
   const checklists = [
@@ -19,11 +19,11 @@ export default function DailyChecklists() {
 
   return (
     <main className="min-h-screen bg-gradient-to-b from-primary/10 via-background to-background relative">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.15),transparent_50%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.15),transparent_50%)] -z-10" />
       <div className="max-w-2xl mx-auto space-y-8 px-4 py-12 relative">
-        <ThemeToggle /> {/* Moved ThemeToggle here */}
+        <ThemeToggle />
         
-        <div> {/* Wrapped content in a div to maintain spacing */}
+        <div>
           <Link href="/" className="inline-block mb-6">
             <Button variant="ghost" size="sm" className="gap-2">
               <ArrowLeft className="h-4 w-4" />
@@ -42,25 +42,18 @@ export default function DailyChecklists() {
             <h1 className="text-3xl font-bold mb-8">All Store Checklists</h1>
           </div>
 
-          <div className="grid gap-4">
+          {/* Use grid layout with the wrapper */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {checklists.map((checklist, index) => (
-              <Card key={index} className="border-2 border-secondary hover:border-primary transition-colors">
-                <CardContent className="p-6">
-                  <a 
-                    href={checklist.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="block"
-                  >
-                    <h2 className="text-xl font-semibold mb-2">
-                      {index + 1}. {checklist.title}
-                    </h2>
-                    <div className="text-sm text-muted-foreground">
-                      Click to open checklist form →
-                    </div>
-                  </a>
-                </CardContent>
-              </Card>
+              <GlowingCardWrapper 
+                key={index}
+                title={checklist.title}
+                url={checklist.url}
+                icon={<ListChecks className="h-5 w-5" />} // Pass ListChecks icon
+                descriptionText="Click to open checklist form →"
+                glowSpread={60}
+                // Pass any specific GlowingEffect props here if needed
+              />
             ))}
           </div>
 
