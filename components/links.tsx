@@ -59,55 +59,55 @@ const links = [
     title: "Uber Eats",
     url: "",
     icon: SiUbereats,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Venture",
     url: "https://vns.prismhr.com/vns/",
     icon: CircleDollarSign,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Time Clock",
     url: "https://www.swipeclock.com/pg/Login.aspx?why=notloggedin&",
     icon: Clock4,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Team Member Applications",
     url: "https://mega.nz/file/bFgh2RYR#rvz62tgT_b0X4dhIJoP8jBj1Z4kmM_T9dv1CZ_WYaQ4",
     icon: FileUser,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Employee Guidelines",
     url: "https://mega.nz/file/SQYGHLzD#ZQR7CPr4Ouj-r_L2PfxdpFsgxpj5Scejl5l5l0aSGg8",
     icon: ScrollText,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Insurance Report",
     url: "https://mega.nz/file/3UwS1QIC#BjCdHHTWXFxQbT6QFn6d4AtFA4DesszsBSR41IaR1sE",
     icon: ScrollText,
-    style: "glass"
+    style: "outline"
   },
   {
-    title: "Incident Report",
+    title: "Customer Incident Report",
     url: "https://mega.nz/file/LYJBwa7Z#22YWRd5HT54of4bbHNTbasJ3MnyGzi-8OVKAG4PmAz0",
     icon: ScrollText,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Employee Incident Report",
     url: "https://mega.nz/file/PY5T3LqY#tUSyGwmgMb144vzC1wDCIcC14QWXX2MYQ-qEsuKvAgo", 
     icon: ScrollText,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Customer Report",
     url: "",
     icon: ScrollText,
-    style: "glass"
+    style: "outline"
   },
   {
     title: "Hr Documents",

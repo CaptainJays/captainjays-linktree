@@ -42,8 +42,12 @@ export default function RoadmapsPage() {
         url: "https://mega.nz/file/aYhGBAZA#6bixfYMOevMvd54gvcrxkwQ67UNBn_rcVJBprPh2IQA"
     },
     {
-        title: "8850 & 9061 Forms",
-        url: "https://mega.nz/folder/GcRDjDIa#5_6CTe_KUtwwE5yb9S295w"
+        title: "8850 Forms",
+        url: "https://mega.nz/folder/qdgG0Ipb#WsSF3ui8JeXGUYcMvC2T1w"
+    },
+    {
+        title: "9061 Forms",
+        url: "https://mega.nz/folder/fVhCXTrR#QOYtxRdbn64T1noSR_b-xQ"
     },
     {
         title: "I9 Forms",
