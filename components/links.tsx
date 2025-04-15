@@ -14,9 +14,15 @@ interface LinksProps {
 
 const links = [
   {
-    title: "Daily Checklists",
-    url: "/dailychecklists",
-    icon: ListChecks,
+    title: "Hr Documents",
+    url: "/hrdoc",
+    icon: File,
+    style: "outline" //gradient
+  },
+  {
+    title: "Road Maps",
+    url: "/roadmaps",
+    icon: SiRoadmapdotsh,
     style: "outline"
   },
   {
@@ -26,27 +32,33 @@ const links = [
     style: "outline"
   },
   {
-    title: "Road Maps",
-    url: "/roadmaps",
-    icon: SiRoadmapdotsh,
+    title: "Time Clock",
+    url: "https://www.swipeclock.com/pg/Login.aspx?why=notloggedin&",
+    icon: Clock4,
     style: "outline"
   },
   {
-    title: "Captain Jay's Website",
-    url: "https://www.captainjays.net/",
-    icon: Globe,
-    style: "outline"
-  },
-  {
-    title: "DFD",
+    title: "DFD Truck Order",
     url: "https://app.jotform.com/250266173293154",
     icon: FaTruckMoving,
     style: "outline"
   },
   {
     title: "Pepsi",
-    url: "https://www.mypepsicoview.com/personaWeb/civ_user/",
+    url: "https://secure.pepsico.com/oauth2/aus1ljxpv3z9G8NGl0h8/v1/authorize?response_type=code&scope=openid%20email&client_id=0oa1ljamd68SiMPyP0h8&state=EXj_qWOZIze1P6rAgI3LSrieS0w&redirect_uri=https%3A%2F%2Fwww.mypepsico.com%3A443%2Fep&nonce=ouuOru4gE3keutR8SM1iYyit3JlLMVx2wH8LEWjSl9Y",
     icon: TbBrandPepsi,
+    style: "outline"
+  },
+  {
+    title: "Daily Checklists",
+    url: "/dailychecklists",
+    icon: ListChecks,
+    style: "outline"
+  },
+  {
+    title: "Captain Jay's Website",
+    url: "https://www.captainjays.net/",
+    icon: Globe,
     style: "outline"
   },
   {
@@ -57,20 +69,14 @@ const links = [
   },
   {
     title: "Uber Eats",
-    url: "",
+    url: "https://merchants.ubereats.com/manager/home",
     icon: SiUbereats,
     style: "outline"
   },
   {
-    title: "Venture",
+    title: "Venture (Onboarding)",
     url: "https://vns.prismhr.com/vns/",
     icon: CircleDollarSign,
-    style: "outline"
-  },
-  {
-    title: "Time Clock",
-    url: "https://www.swipeclock.com/pg/Login.aspx?why=notloggedin&",
-    icon: Clock4,
     style: "outline"
   },
   {
@@ -102,18 +108,6 @@ const links = [
     url: "https://mega.nz/file/PY5T3LqY#tUSyGwmgMb144vzC1wDCIcC14QWXX2MYQ-qEsuKvAgo", 
     icon: ScrollText,
     style: "outline"
-  },
-  {
-    title: "Customer Report",
-    url: "",
-    icon: ScrollText,
-    style: "outline"
-  },
-  {
-    title: "Hr Documents",
-    url: "/hrdoc",
-    icon: File,
-    style: "outline" //gradient
   }
 ];
 

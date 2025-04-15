@@ -12,8 +12,16 @@ export default function DailyChecklists() {
       url: "https://app.jotform.com/250135187550150"
     },
     {
+      title: "Daily Checklist Printable",
+      url: "https://mega.nz/folder/bAZjUYrD#VtvzyEycxFblMmKyH8eWgw"
+    },
+    {
       title: "Boil Out/ Reset",
       url: "https://app.jotform.com/250265864135155"
+    },
+    {
+      title: "Boil Out/ Reset Printable",
+      url: "https://mega.nz/file/CEx2yK7J#UHRZtvec0zcvaHYtj7iu2T1MjEv9xj0S41JZNomCD5c"
     }
   ];
 
