@@ -86,7 +86,7 @@ const links = [
     style: "outline"
   },
   {
-    title: "Insurance Report",
+    title: "Benefits Enrollment Form",
     url: "https://mega.nz/file/3UwS1QIC#BjCdHHTWXFxQbT6QFn6d4AtFA4DesszsBSR41IaR1sE",
     icon: ScrollText,
     style: "outline"
