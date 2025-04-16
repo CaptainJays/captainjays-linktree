@@ -104,6 +104,12 @@ const links = [
     style: "outline"
   },
   {
+    title: "Food Cost Percentage Budget",
+    url: "https://mega.nz/file/eRA3XR4K#EA9ssGPOr9F0szHehg_tN7CJHLTgpe24RFCdHfR3Yww",
+    icon: ScrollText,
+    style: "outline"
+  },
+  {
     title: "Employee Incident Report",
     url: "https://mega.nz/file/PY5T3LqY#tUSyGwmgMb144vzC1wDCIcC14QWXX2MYQ-qEsuKvAgo", 
     icon: ScrollText,
