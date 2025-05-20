@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Captain Jays | Links',
-  description: 'All your captain jays links in one place.',
+  description: 'All your Captain Jays Social',
   openGraph: {
     title: 'Captain Jays | Links',
     description: 'All your Captain Jays Links in one place.',
