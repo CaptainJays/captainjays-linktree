@@ -6,8 +6,8 @@ import Link from "next/link";
 
 const socialLinks = [
   { icon: Youtube, url: "" },
-  { icon: Globe, url: "" },
-  { icon: Instagram, url: "" }
+  { icon: Globe, url: "https://www.captainjays.net/" },
+  { icon: Instagram, url: "https://www.instagram.com/captainjays/?hl=en" }
 ];
 
 export default function Footer() {
